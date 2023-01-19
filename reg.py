@@ -7,7 +7,7 @@ import numpy as np
 import pandas as pd
 
 # Read the dataset
-data = pd.read_csv("C:\\ese-regression-ShrimayiS-main\\iris.csv")
+data = pd.read_csv("iris.csv")
 y = data['pl']
 x = data['pw']
 
