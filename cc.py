@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 
 # Read the dataset
-data = pd.read_csv("C:\\ese-regression-ShrimayiS-main\\iris.csv")
+data = pd.read_csv("iris.csv")
 
 # Take dependent variable as 'pl' and independent variable as 'pw'
 y = data['pl']
