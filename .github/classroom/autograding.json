@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "cc",
+      "setup": "sudo -H pip3 install pandas; sudo -H pip3 install numpy;",
+      "run": "python3 cc.py",
+      "input": "",
+      "output": "0.96",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 7
+    },
+    {
+      "name": "reg",
+      "setup": "sudo -H pip3 install scikit-learn; sudo -H pip3 install pandas; sudo -H pip3 install numpy",
+      "run": "python3 reg.py",
+      "input": "",
+      "output": "4 -0.58",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 8
+    },
+    {
+      "name": "eval",
+      "setup": "sudo -H pip3 install scikit-learn; sudo -H pip3 install pandas; sudo -H pip3 install numpy",
+      "run": "python3 eval.py",
+      "input": "",
+      "output": "same",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    }
+  ]
+}
